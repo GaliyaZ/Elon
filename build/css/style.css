@@ -1,7 +1,10 @@
-/*@font-face {
-  font-family: "";
-  src: url("");
-}*/
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/ofontruMuseoSansCyrl100.woff") format("woff"), url("../fonts/ofontruMuseoSansCyrl100.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: 100;
+  font-style: normal; }
+
 /*@import "temp.scss";*/
 body {
   min-width: 320px;
@@ -30,5 +33,11 @@ img {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden; }
+
+.main__heading {
+  font-family: "Museo Sans Cyrl";
+  font-size: 51px;
+  line-height: 55px;
+  font-weight: 100; }
 
 /*# sourceMappingURL=style.css.map */
