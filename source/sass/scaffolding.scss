@@ -9,6 +9,10 @@ body {
   color: #ffffff;
   font-style: normal;
   background-color: #101e2f;
+  background: url("../img/background.jpg") no-repeat;
+  background-position: 50% 50%;
+  //background-size: auto cover;
+  min-height: 660px;
 }
 
 img {
