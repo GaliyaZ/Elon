@@ -1,14 +1,22 @@
 .main {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 560px;
 }
 
 .main__heading {
     font-family: "Museo Sans Cyrl";
     font-size: 51px;
     line-height: 55px;
-    font-weight: 100;
+    font-weight: 700;
 }
 
 .main__img {
     position: absolute;
+    margin: 0 auto;
+    top: 38px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

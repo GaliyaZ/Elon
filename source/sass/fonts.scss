@@ -1,8 +1,32 @@
 @font-face {
   font-family: "Museo Sans Cyrl";
-
-  src: url("../fonts/ofontruMuseoSansCyrl100.woff") format("woff"), /* Modern Browsers */
+  src: url("../fonts/ofontruMuseoSansCyrl100.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/ofontruMuseoSansCyrl100.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/ofontruMuseoSansCyrl100.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/ofontruMuseoSansCyrl100.woff") format("woff"), /* Modern Browsers */
     url("../fonts/ofontruMuseoSansCyrl100.woff2") format("woff2"); /* Modern Browsers */
   font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/ofontruMuseoSansCyrl300.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/ofontruMuseoSansCyrl300.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/ofontruMuseoSansCyrl300.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/ofontruMuseoSansCyrl300.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/ofontruMuseoSansCyrl300.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/ofontruMuseoSansCyrl700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/ofontruMuseoSansCyrl700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/ofontruMuseoSansCyrl700.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/ofontruMuseoSansCyrl700.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/ofontruMuseoSansCyrl700.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 700;
   font-style: normal;
 }
