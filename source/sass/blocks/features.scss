@@ -1,0 +1,111 @@
+.features {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    //align-items: flex-start;
+    max-width: 380px;
+
+}
+
+.features__item {
+    width: 184px;
+    height: 110px;
+    font-family: "Museo Sans Cyrl";
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 100;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 37px 0;
+    margin: 0 10px 10px 0;
+}
+
+.features__item1 {
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.03), transparent 45%); 
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.features__item2 {
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.03), transparent 45%); 
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.features__item3 {
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.03), transparent 45%); 
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+.features__item4 {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.03), transparent 45%); 
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+.features__item1:hover {
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.15) 1%, transparent 49%);
+    border: 1px solid rgba(121, 124, 130, 0.65);
+    border-image-source: linear-gradient(to top left, rgba(121, 124, 130, 0.65), transparent, rgba(121, 124, 130, 0.65));
+    border-image-slice: 1;
+    border-top: none;
+    border-left: none;
+}
+
+.features__item2:hover {
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.15) 1%, transparent 49%);
+    border: 1px solid rgba(121, 124, 130, 0.65);
+    border-image-source: linear-gradient(to top right, rgba(121, 124, 130, 0.65), transparent, rgba(121, 124, 130, 0.65));
+    border-image-slice: 1;
+    border-top: none;
+    border-right: none;
+}
+
+.features__item3:hover {
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.15) 1%, transparent 49%);
+    border: 1px solid rgba(121, 124, 130, 0.65);
+    border-image-source: linear-gradient(to top left,  transparent, rgba(121, 124, 130, 0.65), transparent);
+    border-image-slice: 1;
+    border-bottom: none;
+    border-left: none;
+}
+
+.features__item4:hover {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.15) 1%, transparent 49%);
+    border: 1px solid rgba(121, 124, 130, 0.65);
+    border-image-source: linear-gradient(to top right, transparent, rgba(121, 124, 130, 0.65), transparent);
+    border-image-slice: 1;
+    border-bottom: none;
+    border-right: none;
+}
+
+.features__item:nth-child(2n) {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.features__item:nth-child(3n) {
+    padding-left: 0;
+}
+
+.features__important {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 60px;
+    line-height: 62px;
+    font-weight: 700;
+}
+
+.features__small {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.features__break {
+    flex-basis: 100%;
+    height: 0;
+}

@@ -2,14 +2,70 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     min-height: 560px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+.main__content {
+    padding-top: 50px;
 }
 
 .main__heading {
     font-family: "Museo Sans Cyrl";
-    font-size: 51px;
-    line-height: 55px;
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 300;
+    background: linear-gradient(to left, #ff450c, #ffffff);
+    background-clip: text;
+    /*-webkit-text-fill-*/color: transparent;
+}
+
+.main__head {
+    font-size: 58px;
+    line-height: 58px;
     font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main__text {
+    position: relative;
+    display: block;
+    width: 162px;
+    height: 17px;
+    padding: 9px;
+    margin-top: 85px;
+    text-align: center;
+    font-family: "Museo Sans Cyrl";
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 100;
+    background: rgba(22, 21, 29, 0.5);
+    border: 1px solid  #23599c;
+    border-image-source: linear-gradient(11deg, #23599c, #111f2d, #09213d, #263e66);
+    border-image-slice: 1;
+}
+
+.main__text::before {
+    content: "";
+    position: absolute;
+    background: url("../img/flare-left.png");
+    width: 34px;
+    height: 34px;
+    bottom: -16px;
+    left: -16px;
+}
+
+.main__text::after {
+    content: "";
+    position: absolute;
+    background: url("../img/flare-right.png");
+    width: 34px;
+    height: 34px;
+    top: -16px;
+    right: -16px;
 }
 
 .main__img {
