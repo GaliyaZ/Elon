@@ -6,21 +6,33 @@
     justify-content: flex-end;
     flex-wrap: wrap;
     //align-items: flex-start;
-    max-width: 380px;
+    max-width: 30%;
 
 }
 
 .features__item {
-    width: 184px;
-    height: 110px;
+    box-sizing: border-box;
+    //width: 185px;
+    height: 185px;
     font-family: "Museo Sans Cyrl";
     font-size: 18px;
     line-height: 20px;
     font-weight: 100;
+/*background-color: rgb(255, 255, 255);
+  opacity: 0.031;
+  width: 185px;
+  height: 185px;*/
     text-transform: lowercase;
     text-align: center;
-    padding: 37px 0;
-    margin: 0 10px 10px 0;
+    //padding: 37px 0;
+    //margin: 0 10px 10px 0;
+}
+
+.features__item:nth-child(2n) {
+    width: 45%;
+}
+.features__item:nth-child(1n) {
+    width: 48%;
 }
 
 .features__item1 {

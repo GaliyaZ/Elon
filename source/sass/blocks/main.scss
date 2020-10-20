@@ -1,9 +1,9 @@
 .main {
-    position: relative;
+    //position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    min-height: 560px;
+    //min-height: 560px;
     max-width: 1170px;
     margin: 0 auto;
     padding-top: 38px;
@@ -71,7 +71,11 @@
 .main__img {
     position: absolute;
     margin: 0 auto;
-    top: 38px;
+    height: 59vh;
+    width: 59vh;
+    min-height: 353px;
+    min-width: 353px;
+    top: 21vh;
     bottom: 0;
     left: 0;
     right: 0;
